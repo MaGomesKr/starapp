@@ -1,0 +1,60 @@
+html,body,header,.view {
+    height: 100%;
+    scroll-behavior: smooth!important;
+    padding-top: 1.77rem!important;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Landing Page - backgrounds
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header {
+    background-color: #fecc23!important;
+}    
+
+div ul li a {
+    color: #fff!important;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .4s;
+    margin: 0 0.5rem;
+
+}
+
+div ul li a:hover {
+    color: #0066ff!important;
+    font-size: 1rem;
+    transition: all .4s;
+}
+
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+div img {
+    width: 30px;
+    height: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff!important;
+}
+
+
+h6 {
+  line-height: 1.7;
+}
+
+hr {
+  background-color: #fecc23;
+}
+
+.btn {
+  transition: all .4s;
+}
