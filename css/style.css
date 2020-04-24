@@ -1,7 +1,6 @@
 html,body,header,.view {
     height: 100%;
     scroll-behavior: smooth!important;
-    padding-top: 1.77rem!important;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,6 +25,11 @@ div ul li a:hover {
     color: #0066ff!important;
     font-size: 1rem;
     transition: all .4s;
+}
+
+section a {
+  color: #0066ff!important;
+  text-decoration: none!important;
 }
 
 
@@ -60,9 +64,70 @@ hr {
 }
 
 
+a i {
+  color: #0066ff!important;
+  transition: all .4s;
+}
 
+a i:hover {
+  color: #fecc23!important;
+}
 
+h6 a {
+  color: #0066ff!important;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all .4s;
+  margin: 0 0.5rem;
+  text-decoration: none!important;
 
+}
+
+h6 a:hover {
+  color: #fecc23!important;
+  font-size: 1rem;
+  transition: all .4s;
+}
+
+.btn-cadastrar {
+  border-color: #fecc23!important;
+  color: #fecc23!important;
+}
+
+.btn-cadastrar:hover {
+  background-color: #fecc23!important;
+  color: white!important;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.slideRight {
+  transition: transform .3s ease-in-out;
+  font-size: 25px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.slideRight::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 22px;
+  width: 12px;
+}
+
+.slideRight:hover {
+  transform: translateX(25px);
+}
 
 
 
