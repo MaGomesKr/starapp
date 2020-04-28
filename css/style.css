@@ -129,6 +129,7 @@ p {
   transform: translateX(25px);
 }
 
-
-
-
+.centralizar-bg-row {
+  padding-top: 8.5%;
+  padding-bottom: 5%;
+}
